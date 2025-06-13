@@ -1,13 +1,28 @@
-# React + Vite
+# 🌟 Interactive 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my cutting-edge portfolio built with Three.js and Tailwind CSS! This project showcases my skills in creating immersive web experiences with smooth 3D animations and modern UI design.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge&logo=vercel)](https://your-portfolio-link.vercel.app)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/your-repo?style=for-the-badge)](https://github.com/yourusername/your-repo/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Screenshot](./screenshot.png) <!-- Replace with your actual screenshot path -->
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portfolio
+- 🚀 **3D Interactive Elements** powered by Three.js
+- 🎨 **Modern UI** with Tailwind CSS
+- 📱 **Fully Responsive** design for all devices
+- ⚡ **Blazing Fast** performance with optimized assets
+- 🌓 **Dark/Light Mode** toggle
+- 📬 **Functional Contact Form** with email integration
+
+## 🛠️ Technologies Used
+
+| Frontend          | 
+|-------------------|
+| Three.js          |
+| Tailwind CSS      |
+| JavaScript (ES6+) |
+| HTML5            | 
+| GSAP (Animations)|   
