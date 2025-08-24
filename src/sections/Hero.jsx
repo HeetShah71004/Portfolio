@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import AnimatedCounter from "../components/AnimatedCounter.jsx";
+// import AnimatedCounter from "../components/AnimatedCounter.jsx";
 import Button from "../components/Button.jsx";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience.jsx";
@@ -50,16 +50,13 @@ const Hero = () => {
               <h1>that Deliver Results</h1>
             </div>
 
+            <p className="text-white-50 md:text-xl relative z-10">
+              Turning ideas into interactive digital experiences.
+            </p>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
+              Hi, I’m Heet, a developer based in Croatia with a passion for
               code.
             </p>
-
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
           </div>
         </header>
 
@@ -71,7 +68,7 @@ const Hero = () => {
         </figure>
       </div>
 
-      <AnimatedCounter />
+      {/* <AnimatedCounter /> */}
     </section>
   );
 };

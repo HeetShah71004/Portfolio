@@ -7,9 +7,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
-  const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const codeRef = useRef(null);
+  const spotifyRef = useRef(null);
+  const streamRef = useRef(null);
 
   useGSAP(() => {
     // Animation for the main section
@@ -20,7 +20,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [codeRef.current, spotifyRef.current, streamRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -47,38 +47,52 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={codeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <a
+                href="https://code-craft-mocha.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/code-craft.png" alt="Code App Interface" />
+              </a>
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Code-Craft: Elevate Your Coding with a Modern, Intuitive Editor
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A sleek code editor built using React, Monaco Editor, and
+                TailwindCSS—designed for productivity and seamless development.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={spotifyRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
+                <a
+                  href="https://realtime-spotify-clone-bx45.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="/images/spotify.png" alt="Spotify Clone App" />
+                </a>
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Spotify Clone - Music Streaming App</h2>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={streamRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <a
+                  href="https://echo-stream.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="/images/stream2.png" alt="Streamify App" />
+                </a>
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Streamify - Messaging App</h2>
             </div>
           </div>
         </div>
