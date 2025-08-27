@@ -10,9 +10,9 @@ const words = [
 ];
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 50, suffix: "+", label: "Satisfied Clients" },
-  { value: 5, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 7, suffix: "+", label: "Completed Projects" },
+  { value: 5, suffix: "+", label: "Tech Stacks Mastered" },
+  { value: "90%", suffix: "+", label: "Project Delivery Rate" },
 ];
 const navLinks = [
   {
@@ -35,37 +35,31 @@ const navLinks = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/2.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/5.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/6.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/7.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/10.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/11.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/12.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/13.png",
   },
 ];
 
@@ -237,9 +231,9 @@ const socialImgs = [
     url: "https://www.instagram.com/heetshah710/", // Add link
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-    url: "https://www.facebook.com", // Add link
+    name: "github",
+    imgPath: "/images/github-mark.png",
+    url: "https://github.com/HeetShah71004", // Add link
   },
   {
     name: "x",

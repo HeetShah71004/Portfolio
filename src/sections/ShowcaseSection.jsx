@@ -47,39 +47,43 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={codeRef} className="first-project-wrapper">
+          <div ref={spotifyRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <a
-                href="https://code-craft-mocha.vercel.app/"
+                href="https://realtime-spotify-clone-bx45.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/code-craft.png" alt="Code App Interface" />
+                <img src="/images/spotify.png" alt="Spotify Clone App" />
               </a>
             </div>
             <div className="text-content">
               <h2>
-                Code-Craft: Elevate Your Coding with a Modern, Intuitive Editor
+                On-Demand Music Streaming Made Simple with a Powerful Spotify
+                Clone
               </h2>
               <p className="text-white-50 md:text-xl">
-                A sleek code editor built using React, Monaco Editor, and
-                TailwindCSS—designed for productivity and seamless development.
+                A real-time music streaming app built with React, Node.js, and
+                TailwindCSS—delivering a seamless and interactive listening
+                experience.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={spotifyRef}>
+            <div className="project" ref={codeRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <a
-                  href="https://realtime-spotify-clone-bx45.onrender.com"
+                  href="https://code-craft-mocha.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/images/spotify.png" alt="Spotify Clone App" />
+                  <img src="/images/code-craft.png" alt="Code App Interface" />
                 </a>
               </div>
-              <h2>Spotify Clone - Music Streaming App</h2>
+              <h2>
+                Code-Craft: Elevate Your Coding with a Modern, Intuitive Editor
+              </h2>
             </div>
 
             <div className="project" ref={streamRef}>
