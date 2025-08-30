@@ -31,6 +31,10 @@ const navLinks = [
   //   name: "Testimonials",
   //   link: "#testimonials",
   // },
+  {
+    name: "Download CV",
+    link: "https://drive.google.com/uc?export=download&id=1PHIjrehSBiQPzk57sMoRqhQIIRPD68Jq",
+  },
 ];
 
 const logoIconsList = [

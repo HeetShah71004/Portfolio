@@ -57,6 +57,14 @@ const Hero = () => {
               Hi, I’m Heet, a developer based in Croatia with a passion for
               code.
             </p>
+            <a
+              href="https://drive.google.com/file/d/1PHIjrehSBiQPzk57sMoRqhQIIRPD68Jq/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-button"
+            >
+              View CV
+            </a>
           </div>
         </header>
 
