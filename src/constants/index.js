@@ -232,7 +232,7 @@ const socialImgs = [
   },
   {
     name: "github",
-    imgPath: "/images/github-mark.png",
+    imgPath: "/images/github.svg",
     url: "https://github.com/HeetShah71004", // Add link
   },
   {
