@@ -51,13 +51,13 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10">
-                Full-stack developer specializing in modern web applications
-              </p>
-              <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                that drive business growth and enhance user engagement.
-              </p>
+              Full-stack developer specializing in modern web applications
+            </p>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              that drive business growth and enhance user engagement.
+            </p>
             <a
-              href="https://drive.google.com/file/d/1PHIjrehSBiQPzk57sMoRqhQIIRPD68Jq/view"
+              href="https://drive.google.com/file/d/1Xhl1DekJntDeUecn2nNWG7MNFj5kC1Bm/view"
               target="_blank"
               rel="noopener noreferrer"
               className="cv-button"

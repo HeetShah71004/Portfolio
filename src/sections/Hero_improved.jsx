@@ -59,7 +59,7 @@ const Hero = () => {
               </p>
             </div>
             <a
-              href="https://drive.google.com/file/d/1PHIjrehSBiQPzk57sMoRqhQIIRPD68Jq/view"
+              href="https://drive.google.com/file/d/1Xhl1DekJntDeUecn2nNWG7MNFj5kC1Bm/view"
               target="_blank"
               rel="noopener noreferrer"
               className="cv-button"
