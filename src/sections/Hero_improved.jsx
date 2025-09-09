@@ -23,8 +23,8 @@ const Hero = () => {
 
       <div className="hero-layout">
         {/* LEFT: Hero Content */}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
-          <div className="flex flex-col gap-7">
+        <header className="flex flex-col justify-center xl:w-1/2 lg:w-3/5 md:w-2/3 w-full md:px-20 px-5">
+          <div className="flex flex-col gap-7 max-w-lg xl:max-w-xl">
             <div className="hero-text">
               <h1>
                 Transforming
@@ -50,12 +50,14 @@ const Hero = () => {
               <h1>that Drive Success</h1>
             </div>
 
-            <p className="text-white-50 md:text-xl relative z-10">
+            <div className="flex flex-col gap-4 max-w-lg">
+              <p className="text-white-50 md:text-xl relative z-10">
                 Full-stack developer specializing in modern web applications
               </p>
               <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                 that drive business growth and enhance user engagement.
               </p>
+            </div>
             <a
               href="https://drive.google.com/file/d/1PHIjrehSBiQPzk57sMoRqhQIIRPD68Jq/view"
               target="_blank"

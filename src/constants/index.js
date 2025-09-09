@@ -11,8 +11,8 @@ const words = [
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
   { value: 7, suffix: "+", label: "Completed Projects" },
-  { value: 5, suffix: "+", label: "Tech Stacks Mastered" },
-  { value: "90%", suffix: "+", label: "Project Delivery Rate" },
+  { value: 8, suffix: "+", label: "Tech Stacks Mastered" },
+  { value: "95%", suffix: "", label: "Client Satisfaction Rate" },
 ];
 const navLinks = [
   {
@@ -39,31 +39,36 @@ const navLinks = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/2.png",
+    name: "React",
+    imgPath: "/images/logos/react.png",
   },
   {
-    imgPath: "/images/logos/3.png",
+    name: "Node.js",
+    imgPath: "/images/logos/node.png",
   },
   {
-    imgPath: "/images/logos/5.png",
+    name: "Python",
+    imgPath: "/images/logos/python.svg",
   },
   {
-    imgPath: "/images/logos/6.png",
+    name: "Three.js",
+    imgPath: "/images/logos/three.png",
   },
   {
-    imgPath: "/images/logos/7.png",
+    name: "Git",
+    imgPath: "/images/logos/git.svg",
   },
   {
-    imgPath: "/images/logos/10.png",
+    name: "JavaScript",
+    imgPath: "/images/code.svg",
   },
   {
-    imgPath: "/images/logos/11.png",
+    name: "GitHub",
+    imgPath: "/images/github.svg",
   },
   {
-    imgPath: "/images/logos/12.png",
-  },
-  {
-    imgPath: "/images/logos/13.png",
+    name: "Vite",
+    imgPath: "/vite.svg",
   },
 ];
 
@@ -228,26 +233,140 @@ const testimonials = [
   },
 ];
 
+// Enhanced Skills Data for HR-Friendly Portfolio
+const skillCategories = [
+  {
+    category: "Frontend Development",
+    icon: "⚛️",
+    skills: [
+      { name: "React.js", level: "Expert", years: "2+", color: "#61DAFB" },
+      {
+        name: "JavaScript ES6+",
+        level: "Expert",
+        years: "3+",
+        color: "#F7DF1E",
+      },
+      { name: "TypeScript", level: "Advanced", years: "2+", color: "#3178C6" },
+      { name: "HTML5 & CSS3", level: "Expert", years: "3+", color: "#E34F26" },
+      { name: "Tailwind CSS", level: "Expert", years: "2+", color: "#06B6D4" },
+      {
+        name: "Responsive Design",
+        level: "Expert",
+        years: "3+",
+        color: "#FF6B6B",
+      },
+    ],
+  },
+  {
+    category: "Backend Development",
+    icon: "🔧",
+    skills: [
+      { name: "Node.js", level: "Advanced", years: "2+", color: "#339933" },
+      { name: "Python", level: "Expert", years: "3+", color: "#3776AB" },
+      { name: "Express.js", level: "Advanced", years: "2+", color: "#000000" },
+      { name: "Django", level: "Advanced", years: "2+", color: "#092E20" },
+      { name: "REST APIs", level: "Expert", years: "2+", color: "#FF9500" },
+      { name: "GraphQL", level: "Intermediate", years: "1+", color: "#E10098" },
+    ],
+  },
+  {
+    category: "Database & DevOps",
+    icon: "🗄️",
+    skills: [
+      { name: "MongoDB", level: "Advanced", years: "2+", color: "#47A248" },
+      { name: "PostgreSQL", level: "Advanced", years: "2+", color: "#336791" },
+      { name: "MySQL", level: "Advanced", years: "2+", color: "#4479A1" },
+      { name: "Docker", level: "Intermediate", years: "1+", color: "#2496ED" },
+      { name: "Git & GitHub", level: "Expert", years: "3+", color: "#F05032" },
+      {
+        name: "AWS Basics",
+        level: "Intermediate",
+        years: "1+",
+        color: "#FF9900",
+      },
+    ],
+  },
+  {
+    category: "Tools & Frameworks",
+    icon: "🛠️",
+    skills: [
+      { name: "Next.js", level: "Advanced", years: "2+", color: "#000000" },
+      { name: "Vite", level: "Advanced", years: "1+", color: "#646CFF" },
+      {
+        name: "Three.js",
+        level: "Intermediate",
+        years: "1+",
+        color: "#000000",
+      },
+      {
+        name: "React Native",
+        level: "Intermediate",
+        years: "1+",
+        color: "#61DAFB",
+      },
+      { name: "Figma", level: "Intermediate", years: "2+", color: "#F24E1E" },
+      { name: "VS Code", level: "Expert", years: "3+", color: "#007ACC" },
+    ],
+  },
+  {
+    category: "Soft Skills",
+    icon: "🧠",
+    skills: [
+      {
+        name: "Problem Solving",
+        level: "Expert",
+        years: "3+",
+        color: "#9B59B6",
+      },
+      {
+        name: "Team Collaboration",
+        level: "Expert",
+        years: "3+",
+        color: "#E74C3C",
+      },
+      {
+        name: "Project Management",
+        level: "Advanced",
+        years: "2+",
+        color: "#F39C12",
+      },
+      {
+        name: "Client Communication",
+        level: "Advanced",
+        years: "2+",
+        color: "#2ECC71",
+      },
+      {
+        name: "Agile Methodology",
+        level: "Advanced",
+        years: "2+",
+        color: "#3498DB",
+      },
+      { name: "Code Review", level: "Advanced", years: "2+", color: "#E67E22" },
+    ],
+  },
+];
+
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-    url: "https://www.instagram.com/heetshah710/", // Add link
+    name: "instagram",
+    imgPath: "/images/icons/instagram.svg",
+    url: "https://www.instagram.com/heetshah710/",
   },
   {
     name: "github",
-    imgPath: "/images/github.svg",
-    url: "https://github.com/HeetShah71004", // Add link
+    imgPath: "/images/icons/github.svg",
+    url: "https://github.com/HeetShah71004",
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
-    url: "https://x.com/SHAHHEETD", // Add link
+    name: "x-twitter",
+    imgPath: "/images/icons/x-twitter.svg",
+    url: "https://x.com/SHAHHEETD",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
-    url: "https://www.linkedin.com/in/shah-heet-d-049a98316/", // Add link
+    imgPath: "/images/icons/linkedin.svg",
+    url: "https://www.linkedin.com/in/shah-heet-d-049a98316/",
   },
 ];
 
@@ -260,6 +379,7 @@ export {
   expCards,
   techStackIcons,
   techStackImgs,
+  skillCategories,
   testimonials,
   socialImgs,
 };
