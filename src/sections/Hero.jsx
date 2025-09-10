@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
+import ScrollIndicator from "../components/ScrollIndicator.jsx";
 // import Button from "../components/Button.jsx";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience.jsx";
@@ -76,6 +77,7 @@ const Hero = () => {
       </div>
 
       <AnimatedCounter />
+      <ScrollIndicator />
     </section>
   );
 };
