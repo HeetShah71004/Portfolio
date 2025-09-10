@@ -754,3 +754,43 @@ section {
 .cv-button:hover {
   @apply bg-black-50 text-white;
 }
+
+/* Scroll Indicator Styles */
+.scroll-indicator {
+  @apply fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 cursor-pointer transition-all duration-500 hover:scale-110 flex flex-col items-center gap-3;
+  animation: fadeInUp 1s ease-out 2s both;
+}
+
+.mouse {
+  @apply relative w-6 h-10 border-2 border-white/30 rounded-full bg-transparent backdrop-blur-sm transition-all duration-300 hover:border-white/60;
+}
+
+.scroll-wheel {
+  @apply absolute top-2 left-1/2 transform -translate-x-1/2 w-1 h-2 bg-white/60 rounded-full;
+  animation: scroll 2s infinite;
+}
+
+.scroll-text {
+  @apply text-white/60 text-xs font-medium uppercase tracking-wider transition-all duration-300 hover:text-white/80;
+}
+
+@keyframes scroll {
+  0% {
+    @apply opacity-100 top-2;
+  }
+  50% {
+    @apply opacity-60 top-4;
+  }
+  100% {
+    @apply opacity-0 top-6;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    @apply opacity-0 translate-y-4;
+  }
+  100% {
+    @apply opacity-100 translate-y-0;
+  }
+}
