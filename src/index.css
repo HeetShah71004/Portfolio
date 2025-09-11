@@ -145,22 +145,37 @@ section {
     }
 
     .contact-btn {
-      @apply flex;
+      @apply flex relative z-20 cursor-pointer;
 
       .inner {
-        @apply px-5 py-2 rounded-lg bg-white text-black transition-colors duration-300;
+        @apply px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white 
+               flex items-center gap-2 relative overflow-hidden transition-all duration-300
+               border border-blue-500/30 hover:border-blue-400/50 shadow-lg hover:shadow-2xl
+               hover:shadow-blue-500/25;
+
+        .bg-circle {
+          @apply absolute -right-8 top-1/2 -translate-y-1/2 
+                 w-0 h-0 group-hover:w-[120%] group-hover:h-[120%] group-hover:-right-4
+                 rounded-full bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-500;
+        }
 
         span {
-          @apply transition-colors duration-300;
+          @apply transition-all duration-300 font-semibold relative z-10
+                 group-hover:text-white group-hover:translate-x-1 text-sm;
+        }
+
+        .contact-icon {
+          @apply transition-all duration-300 relative z-10 opacity-90
+                 group-hover:opacity-100 group-hover:text-white group-hover:translate-x-1;
+
+          svg {
+            @apply w-4 h-4 transition-transform duration-300 group-hover:scale-110;
+          }
         }
       }
 
       &:hover .inner {
-        @apply bg-black-50;
-      }
-
-      &:hover .inner span {
-        @apply text-white;
+        @apply from-blue-700 to-purple-700 shadow-2xl transform scale-105;
       }
     }
   }
@@ -282,6 +297,19 @@ section {
 
   .tech-card-content {
     @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10;
+  }
+
+  /* Project card hover effects */
+  .image-wrapper {
+    @apply transition-all duration-300 cursor-pointer;
+  }
+
+  .image-wrapper:hover {
+    @apply shadow-xl transform scale-[1.02];
+  }
+
+  .project-link-icon {
+    @apply transform hover:scale-110 hover:rotate-12 transition-all duration-300 animate-pulse;
 
     & p {
       @apply text-lg 2xl:text-2xl pb-5 xl:pb-0 font-semibold text-white-50 text-center;
