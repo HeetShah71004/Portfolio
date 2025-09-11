@@ -6,6 +6,7 @@ import ScrollIndicator from "../components/ScrollIndicator.jsx";
 // import Button from "../components/Button.jsx";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience.jsx";
+import { FiExternalLink } from "react-icons/fi";
 
 const Hero = () => {
   useGSAP(() => {
@@ -63,7 +64,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="cv-button"
             >
-              View CV
+              View CV <FiExternalLink className="inline ml-2" />
             </a>
           </div>
         </header>
