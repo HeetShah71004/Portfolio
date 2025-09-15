@@ -132,38 +132,8 @@ const expCards = [
   },
 ];
 
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
-];
+// Removed unused techStackIcons that referenced deleted 3D models
+// const techStackIcons = [...] - removed since TechIconCardExperience component was also removed
 
 const techStackImgs = [
   {
@@ -188,7 +158,8 @@ const techStackImgs = [
   },
 ];
 
-const testimonials = [
+// Unused testimonials data - commented out since testimonials section is not being used
+/* const testimonials = [
   {
     name: "Esther Howard",
     mentions: "@estherhoward",
@@ -231,7 +202,7 @@ const testimonials = [
       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
-];
+]; */
 
 // Enhanced Skills Data for HR-Friendly Portfolio
 const skillCategories = [
@@ -377,9 +348,7 @@ export {
   logoIconsList,
   abilities,
   expCards,
-  techStackIcons,
   techStackImgs,
   skillCategories,
-  testimonials,
   socialImgs,
 };
