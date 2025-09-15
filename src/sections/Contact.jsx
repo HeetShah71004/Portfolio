@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 import TitleHeader from "../components/TitleHeader.jsx";
 import ContactExperience from "../components/models/contact/ContactExperience.jsx";
@@ -32,8 +33,24 @@ const Contact = () => {
 
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
+
+      // Show success toast
+      toast.success(
+        "🎉 Message sent successfully! I'll get back to you soon.",
+        {
+          duration: 5000,
+        }
+      );
     } catch (error) {
-      console.error("EmailJS Error:", error); // Optional: show toast
+      console.error("EmailJS Error:", error);
+
+      // Show error toast
+      toast.error(
+        "❌ Failed to send message. Please try again or contact me directly.",
+        {
+          duration: 6000,
+        }
+      );
     } finally {
       setLoading(false); // Always stop loading, even on error
     }
