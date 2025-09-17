@@ -13,12 +13,12 @@ Welcome to my cutting-edge portfolio built with Three.js and Tailwind CSS! This 
 - 🌓 **Dark/Light Mode** toggle
 - 📬 **Functional Contact Form** with email integration
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
-| Frontend          | 
-|-------------------|
-| Three.js          |
-| Tailwind CSS      |
-| JavaScript (ES6+) |
-| HTML5            | 
-| GSAP (Animations)|   
+| Technology | Badge |
+|------------|-------|
+| **Three.js** | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white) |
+| **Tailwind CSS** | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
+| **JavaScript (ES6+)** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| **HTML5** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
+| **GSAP** | ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white) |
