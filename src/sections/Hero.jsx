@@ -59,7 +59,7 @@ const Hero = () => {
               that drive business growth and enhance user engagement.
             </p>
             <a
-              href="https://drive.google.com/file/d/1Xhl1DekJntDeUecn2nNWG7MNFj5kC1Bm/view"
+              href="https://drive.google.com/file/d/1Fo6xdyNqdpTsFc21jrl03aK6pcuWJ-lc/view"
               target="_blank"
               rel="noopener noreferrer"
               className="cv-button"

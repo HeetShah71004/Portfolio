@@ -9,10 +9,9 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 0, suffix: "", label: "Fresher (Entry-Level)", isTextOnly: true },
   { value: 7, suffix: "+", label: "Completed Projects" },
   { value: 8, suffix: "+", label: "Tech Stacks Mastered" },
-  { value: "95%", suffix: "", label: "Client Satisfaction Rate" },
 ];
 const navLinks = [
   {
@@ -33,7 +32,7 @@ const navLinks = [
   // },
   {
     name: "Download CV",
-    link: "https://drive.google.com/uc?export=download&id=1Xhl1DekJntDeUecn2nNWG7MNFj5kC1Bm",
+    link: "https://drive.google.com/uc?export=download&id=1Fo6xdyNqdpTsFc21jrl03aK6pcuWJ-lc",
   },
 ];
 
