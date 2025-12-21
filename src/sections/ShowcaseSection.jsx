@@ -134,8 +134,8 @@ const AppShowcase = () => {
                   className="block h-full w-full"
                 >
                   <img
-                    src="/images/stream2.png"
-                    alt="Streamify App"
+                    src="/images/echo.png"
+                    alt="EchoStream App"
                     className="transition-all duration-300 group-hover:brightness-75"
                   />
                   <div className="absolute bottom-4 right-4 bg-green-500/90 rounded-full p-2 shadow-md animate-bounce">
@@ -154,7 +154,7 @@ const AppShowcase = () => {
                   </div>
                 </a>
               </div>
-              <h2>Streamify - Messaging App</h2>
+              <h2>EchoStream - Messaging App</h2>
             </div>
           </div>
         </div>
