@@ -32,7 +32,7 @@ const navLinks = [
   // },
   {
     name: "Download CV",
-    link: "https://drive.google.com/uc?export=download&id=1KWdqHTC7AbQHgHF4FzNPAvKtblv80SiO",
+    link: "https://drive.google.com/file/d/1MIAaUjfXHhA3Fv7Kxr0OhX7i9fWJxsbQ/view?usp=drive_link",
   },
 ];
 

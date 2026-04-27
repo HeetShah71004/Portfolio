@@ -196,6 +196,22 @@ section {
         img {
           @apply w-full h-full object-cover rounded-xl absolute inset-0;
         }
+
+        img.aiip-image {
+          @apply object-contain object-top;
+        }
+
+        &.framed {
+          @apply bg-[#E8F6F1] rounded-xl p-4 md:p-6;
+        }
+
+        &.framed img.aiip-image {
+          @apply static h-full w-full object-contain rounded-lg;
+        }
+
+        &.framed img.featured-image {
+          @apply static h-full w-full object-contain rounded-lg;
+        }
       }
 
       .text-content {
@@ -216,6 +232,10 @@ section {
 
       .image-wrapper {
         @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
+      }
+
+      .image-wrapper.mint-framed {
+        @apply bg-[#E8F6F1] p-4 md:p-6;
       }
 
       img {

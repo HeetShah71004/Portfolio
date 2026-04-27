@@ -49,22 +49,22 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={spotifyRef} className="first-project-wrapper">
-            <div className="image-wrapper group relative">
+            <div className="image-wrapper framed group relative">
               <a
-                href="https://realtime-spotify-clone-bx45.onrender.com"
+                href="https://code-craft-mocha.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block h-full w-full"
               >
                 <img
-                  src="/images/spotify.png"
-                  alt="Spotify Clone App"
-                  className="transition-all duration-300 group-hover:brightness-75"
+                  src="/images/code-craft.png"
+                  alt="Code App Interface"
+                  className="featured-image h-full w-full rounded-xl transition-all duration-300 group-hover:brightness-75"
                 />
-                <div className="absolute bottom-4 right-4 bg-[#1ED760]/90 rounded-full p-2 shadow-md animate-bounce">
+                <div className="absolute bottom-4 right-4 bg-blue-500/90 rounded-full p-2 shadow-md animate-bounce">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 text-black"
+                    className="h-5 w-5 text-white"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -78,36 +78,32 @@ const AppShowcase = () => {
               </a>
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Music Streaming Made Simple with a Powerful Spotify
-                Clone
-              </h2>
+              <h2>Code-Craft: Elevate Your Coding with a Modern, Intuitive Editor</h2>
               <p className="text-white-50 md:text-xl">
-                A real-time music streaming app built with React, Node.js, and
-                TailwindCSS—delivering a seamless and interactive listening
-                experience.
+                A full-stack SaaS code editor built for speed, clean workflows,
+                and a modern developer experience.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={codeRef}>
-              <div className="image-wrapper bg-[#FFEFDB] group relative">
+              <div className="image-wrapper mint-framed group relative">
                 <a
-                  href="https://code-craft-mocha.vercel.app/"
+                  href="https://realtime-spotify-clone-bx45.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block h-full w-full"
                 >
                   <img
-                    src="/images/code-craft.png"
-                    alt="Code App Interface"
+                    src="/images/img-AIIP2.png"
+                    alt="Spotify Clone App"
                     className="transition-all duration-300 group-hover:brightness-75"
                   />
-                  <div className="absolute bottom-4 right-4 bg-blue-500/90 rounded-full p-2 shadow-md animate-bounce">
+                  <div className="absolute bottom-4 right-4 bg-[#1ED760]/90 rounded-full p-2 shadow-md animate-bounce">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-white"
+                      className="h-5 w-5 text-black"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -120,9 +116,12 @@ const AppShowcase = () => {
                   </div>
                 </a>
               </div>
-              <h2>
-                Code-Craft: Elevate Your Coding with a Modern, Intuitive Editor
-              </h2>
+              <h2>Interv AI - Real Interview Simulation Platform</h2>
+              <p className="text-white-50 text-sm md:text-base mt-2">
+                Interv AI delivers a professional, interactive, and
+                hyper-personalized preparation experience that simulates real
+                interview scenarios.
+              </p>
             </div>
 
             <div className="project" ref={streamRef}>
