@@ -90,14 +90,14 @@ const AppShowcase = () => {
             <div className="project" ref={codeRef}>
               <div className="image-wrapper mint-framed group relative">
                 <a
-                  href="https://realtime-spotify-clone-bx45.onrender.com"
+                  href="https://aiip-azure.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block h-full w-full"
                 >
                   <img
                     src="/images/img-AIIP2.png"
-                    alt="Spotify Clone App"
+                    alt="AI Interview Prep App Interface"
                     className="transition-all duration-300 group-hover:brightness-75"
                   />
                   <div className="absolute bottom-4 right-4 bg-[#1ED760]/90 rounded-full p-2 shadow-md animate-bounce">
